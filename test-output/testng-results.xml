@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30419" started-at="2019-06-18T14:15:36Z" finished-at="2019-06-18T14:16:07Z">
+  <suite name="Default suite" duration-ms="32789" started-at="2019-06-18T22:41:23Z" finished-at="2019-06-18T22:41:55Z">
     <groups>
       <group name="smoke">
         <method signature="LoginPageTest.doLogIn()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="doLogIn" class="com.syntax.testcases.LoginPageTest"/>
@@ -10,25 +10,25 @@
         <method signature="LoginPageTest.negativeLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="negativeLogin" class="com.syntax.testcases.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="30419" started-at="2019-06-18T14:15:36Z" finished-at="2019-06-18T14:16:07Z">
+    <test name="Default test" duration-ms="32789" started-at="2019-06-18T22:41:23Z" finished-at="2019-06-18T22:41:55Z">
       <class name="com.syntax.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="2109" started-at="2019-06-18T14:15:36Z" finished-at="2019-06-18T14:15:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="2746" started-at="2019-06-18T22:41:23Z" finished-at="2019-06-18T22:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doLogIn()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="doLogIn" duration-ms="2229" started-at="2019-06-18T14:15:38Z" finished-at="2019-06-18T14:15:41Z">
+        <test-method status="PASS" signature="doLogIn()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="doLogIn" duration-ms="2561" started-at="2019-06-18T22:41:25Z" finished-at="2019-06-18T22:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="87" started-at="2019-06-18T14:15:41Z" finished-at="2019-06-18T14:15:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="94" started-at="2019-06-18T22:41:28Z" finished-at="2019-06-18T22:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="1778" started-at="2019-06-18T14:15:41Z" finished-at="2019-06-18T14:15:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="2836" started-at="2019-06-18T22:41:28Z" finished-at="2019-06-18T22:41:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="loginToOrangeHRM" duration-ms="21126" started-at="2019-06-18T14:15:42Z" finished-at="2019-06-18T14:16:04Z">
+        <test-method status="FAIL" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="loginToOrangeHRM" duration-ms="21534" started-at="2019-06-18T22:41:31Z" finished-at="2019-06-18T22:41:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='page-title']"}
@@ -37,10 +37,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Tetianas-MBP.fios-router.home', ip: 'fe80:0:0:0:18b2:fc98:c22:833d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'
+System info: host: 'Tetianas-MacBook-Pro.local', ip: 'fe80:0:0:0:18b2:fc98:c22:833d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/1h/_mpncj8n59j...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: ac002925cef5210a8be07d72e13cbd04
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/1h/_mpncj8n59j...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49466}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c9893fa94a827d88c5f8e278521a3e8c
 *** Element info: {Using=xpath, value=//li[@class='page-title']}]]>
             </message>
             <full-stacktrace>
@@ -50,10 +50,10 @@ Session ID: ac002925cef5210a8be07d72e13cbd04
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Tetianas-MBP.fios-router.home', ip: 'fe80:0:0:0:18b2:fc98:c22:833d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'
+System info: host: 'Tetianas-MacBook-Pro.local', ip: 'fe80:0:0:0:18b2:fc98:c22:833d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/1h/_mpncj8n59j...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: ac002925cef5210a8be07d72e13cbd04
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/1h/_mpncj8n59j...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49466}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c9893fa94a827d88c5f8e278521a3e8c
 *** Element info: {Using=xpath, value=//li[@class='page-title']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -106,19 +106,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOrangeHRM -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="81" started-at="2019-06-18T14:16:04Z" finished-at="2019-06-18T14:16:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="83" started-at="2019-06-18T22:41:52Z" finished-at="2019-06-18T22:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="1621" started-at="2019-06-18T14:16:04Z" finished-at="2019-06-18T14:16:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="1645" started-at="2019-06-18T22:41:53Z" finished-at="2019-06-18T22:41:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="negativeLogin" duration-ms="1274" started-at="2019-06-18T14:16:05Z" finished-at="2019-06-18T14:16:07Z">
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="negativeLogin" duration-ms="1180" started-at="2019-06-18T22:41:54Z" finished-at="2019-06-18T22:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="93" started-at="2019-06-18T14:16:07Z" finished-at="2019-06-18T14:16:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="86" started-at="2019-06-18T22:41:55Z" finished-at="2019-06-18T22:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

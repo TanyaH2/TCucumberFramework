@@ -1,4 +1,4 @@
-package com.syntax.pages;
+package com.orangehrm.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

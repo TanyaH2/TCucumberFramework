@@ -1,4 +1,4 @@
-package com.syntax.pages;
+package com.orangehrm.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,12 +12,9 @@ public class HomePage  extends BaseClass{
 
 	@FindBy(xpath = "//a[contains(@class,'collapsible-header')]/span[2]")
 	public WebElement AdminDrDwn;
-	
-	
 
 	
-	
-	@FindBy(xpath = "//span[text()='PIM']")
+	@FindBy(xpath = "//div[@id='menu-content']//span[text()='PIM']")
 	public WebElement pim;
 	
 	@FindBy(xpath = "//span[text()='Add Employee']")
